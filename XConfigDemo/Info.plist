@@ -43,8 +43,6 @@
 	</array>
 	<key>USE_DEBUG_CONTROLS</key>
 	<string>$(USE_DEBUG_CONTROLS)</string>
-	<key>FABRIC_API_KEY</key>
-	<string>$(FABRIC_API_KEY)</string>
 	<key>SERVER_NAME</key>
 	<string>$(SERVER_NAME)</string>
 </dict>

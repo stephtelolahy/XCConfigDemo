@@ -17,16 +17,14 @@ class ViewController: UIViewController {
         
         guard let configs = Bundle.main.infoDictionary,
             let useDebugControls = configs["USE_DEBUG_CONTROLS"] as? String,
-            let fabricKey = configs["FABRIC_API_KEY"] as? String,
             let server = configs["SERVER_NAME"] as? String else {
                 return
         }
         
         infoLabel.text = """
-        \nUse Debug controls: \(useDebugControls)
-        \nFabric API key: \(fabricKey)
-        \nServer name: \(server)
-        """
+                Use Debug controls: \(useDebugControls)
+                Server name: \(server)
+                """
     }
     
 }
