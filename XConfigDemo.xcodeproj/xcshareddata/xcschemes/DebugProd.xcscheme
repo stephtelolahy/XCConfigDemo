@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0920"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,27 +14,36 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "113BA93051B86CE9BE9939F8C8C0EB4D"
-               BuildableName = "Pods_XConfigDemo.framework"
-               BlueprintName = "Pods-XConfigDemo"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "ADCBE74E201524F3000EA0E8"
+               BuildableName = "XConfigDemo.app"
+               BlueprintName = "XConfigDemo"
+               ReferencedContainer = "container:XConfigDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "DebugProd"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "ADCBE74E201524F3000EA0E8"
+            BuildableName = "XConfigDemo.app"
+            BlueprintName = "XConfigDemo"
+            ReferencedContainer = "container:XConfigDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "DebugProd"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       language = ""
@@ -44,30 +53,41 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "113BA93051B86CE9BE9939F8C8C0EB4D"
-            BuildableName = "Pods_XConfigDemo.framework"
-            BlueprintName = "Pods-XConfigDemo"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "ADCBE74E201524F3000EA0E8"
+            BuildableName = "XConfigDemo.app"
+            BlueprintName = "XConfigDemo"
+            ReferencedContainer = "container:XConfigDemo.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release"
+      buildConfiguration = "DebugProd"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "ADCBE74E201524F3000EA0E8"
+            BuildableName = "XConfigDemo.app"
+            BlueprintName = "XConfigDemo"
+            ReferencedContainer = "container:XConfigDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Debug">
+      buildConfiguration = "DebugProd">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "ReleaseProd"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

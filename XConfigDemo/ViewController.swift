@@ -15,10 +15,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        guard let useDebugControls = Bundle.main.infoDictionary?["USE_DEBUG_CONTROLS"] as? String,
-            let fabricKey = Bundle.main.infoDictionary?["FABRIC_API_KEY"] as? String,
-            let server = Bundle.main.infoDictionary?["SERVER_NAME"] as? String else {
-            return
+        guard let configs = Bundle.main.infoDictionary,
+            let useDebugControls = configs["USE_DEBUG_CONTROLS"] as? String,
+            let fabricKey = configs["FABRIC_API_KEY"] as? String,
+            let server = configs["SERVER_NAME"] as? String else {
+                return
         }
         
         infoLabel.text = """
