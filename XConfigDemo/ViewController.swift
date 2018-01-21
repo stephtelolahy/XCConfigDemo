@@ -9,17 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var infoLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        guard let useDebugControls = Bundle.main.infoDictionary?["USE_DEBUG_CONTROLS"] as? String,
+            let fabricKey = Bundle.main.infoDictionary?["FABRIC_API_KEY"] as? String,
+            let server = Bundle.main.infoDictionary?["SERVER_NAME"] as? String else {
+            return
+        }
+        
+        infoLabel.text = """
+        \nUse Debug controls: \(useDebugControls)
+        \nFabric API key: \(fabricKey)
+        \nServer name: \(server)
+        """
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
 }
 

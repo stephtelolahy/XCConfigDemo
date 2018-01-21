@@ -6,4 +6,5 @@
 //  Copyright © 2018 Hugues Stéphano TELOLAHY. All rights reserved.
 //
 
-FABRIC_API_KEY = debug1234
+USE_DEBUG_CONTROLS = 1
+FABRIC_API_KEY = debug037c72e0f437a1432e702ed96f161ac7251d47ca

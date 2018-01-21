@@ -15,6 +15,7 @@
 		AD7AE8142015288500AC7CD1 /* DebugProd.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AD7AE8132015288500AC7CD1 /* DebugProd.xcconfig */; };
 		AD7AE816201529E300AC7CD1 /* ReleaseTest.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AD7AE815201529E300AC7CD1 /* ReleaseTest.xcconfig */; };
 		AD7AE81820152A1D00AC7CD1 /* ReleaseProd.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AD7AE81720152A1D00AC7CD1 /* ReleaseProd.xcconfig */; };
+		AD7AE81920152C9500AC7CD1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADCBE75E201524F3000EA0E8 /* Info.plist */; };
 		ADCBE753201524F3000EA0E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCBE752201524F3000EA0E8 /* AppDelegate.swift */; };
 		ADCBE755201524F3000EA0E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCBE754201524F3000EA0E8 /* ViewController.swift */; };
 		ADCBE758201524F3000EA0E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCBE756201524F3000EA0E8 /* Main.storyboard */; };
@@ -206,6 +207,7 @@
 				AD7AE81820152A1D00AC7CD1 /* ReleaseProd.xcconfig in Resources */,
 				ADCBE75A201524F3000EA0E8 /* Assets.xcassets in Resources */,
 				ADCBE758201524F3000EA0E8 /* Main.storyboard in Resources */,
+				AD7AE81920152C9500AC7CD1 /* Info.plist in Resources */,
 				AD7AE8142015288500AC7CD1 /* DebugProd.xcconfig in Resources */,
 				AD7AE80A2015274A00AC7CD1 /* Release.xcconfig in Resources */,
 				AD7AE80E2015279000AC7CD1 /* Prod.xcconfig in Resources */,
