@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD7AE8082015273400AC7CD1 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AD7AE8072015273400AC7CD1 /* Debug.xcconfig */; };
+		AD7AE80A2015274A00AC7CD1 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AD7AE8092015274A00AC7CD1 /* Release.xcconfig */; };
+		AD7AE80C2015277300AC7CD1 /* Test.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AD7AE80B2015277300AC7CD1 /* Test.xcconfig */; };
+		AD7AE80E2015279000AC7CD1 /* Prod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AD7AE80D2015279000AC7CD1 /* Prod.xcconfig */; };
+		AD7AE8122015287500AC7CD1 /* DebugTest.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AD7AE8112015287500AC7CD1 /* DebugTest.xcconfig */; };
+		AD7AE8142015288500AC7CD1 /* DebugProd.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AD7AE8132015288500AC7CD1 /* DebugProd.xcconfig */; };
+		AD7AE816201529E300AC7CD1 /* ReleaseTest.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AD7AE815201529E300AC7CD1 /* ReleaseTest.xcconfig */; };
+		AD7AE81820152A1D00AC7CD1 /* ReleaseProd.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AD7AE81720152A1D00AC7CD1 /* ReleaseProd.xcconfig */; };
 		ADCBE753201524F3000EA0E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCBE752201524F3000EA0E8 /* AppDelegate.swift */; };
 		ADCBE755201524F3000EA0E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCBE754201524F3000EA0E8 /* ViewController.swift */; };
 		ADCBE758201524F3000EA0E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCBE756201524F3000EA0E8 /* Main.storyboard */; };
@@ -18,6 +26,14 @@
 /* Begin PBXFileReference section */
 		1DAAA2D3210029604C88A8E1 /* Pods-XConfigDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XConfigDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XConfigDemo/Pods-XConfigDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		382887F7FD6723D579B7E02F /* Pods_XConfigDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XConfigDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7AE8072015273400AC7CD1 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		AD7AE8092015274A00AC7CD1 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		AD7AE80B2015277300AC7CD1 /* Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
+		AD7AE80D2015279000AC7CD1 /* Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Prod.xcconfig; sourceTree = "<group>"; };
+		AD7AE8112015287500AC7CD1 /* DebugTest.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugTest.xcconfig; sourceTree = "<group>"; };
+		AD7AE8132015288500AC7CD1 /* DebugProd.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugProd.xcconfig; sourceTree = "<group>"; };
+		AD7AE815201529E300AC7CD1 /* ReleaseTest.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ReleaseTest.xcconfig; sourceTree = "<group>"; };
+		AD7AE81720152A1D00AC7CD1 /* ReleaseProd.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ReleaseProd.xcconfig; sourceTree = "<group>"; };
 		ADCBE74F201524F3000EA0E8 /* XConfigDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XConfigDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADCBE752201524F3000EA0E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADCBE754201524F3000EA0E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +73,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AD7AE8062015260B00AC7CD1 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				AD7AE80F2015279800AC7CD1 /* App */,
+				AD7AE810201527A300AC7CD1 /* Server */,
+				AD7AE8112015287500AC7CD1 /* DebugTest.xcconfig */,
+				AD7AE8132015288500AC7CD1 /* DebugProd.xcconfig */,
+				AD7AE815201529E300AC7CD1 /* ReleaseTest.xcconfig */,
+				AD7AE81720152A1D00AC7CD1 /* ReleaseProd.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		AD7AE80F2015279800AC7CD1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AD7AE8072015273400AC7CD1 /* Debug.xcconfig */,
+				AD7AE8092015274A00AC7CD1 /* Release.xcconfig */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AD7AE810201527A300AC7CD1 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				AD7AE80B2015277300AC7CD1 /* Test.xcconfig */,
+				AD7AE80D2015279000AC7CD1 /* Prod.xcconfig */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
 		ADCBE746201524F3000EA0E8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,9 +128,10 @@
 				ADCBE752201524F3000EA0E8 /* AppDelegate.swift */,
 				ADCBE754201524F3000EA0E8 /* ViewController.swift */,
 				ADCBE756201524F3000EA0E8 /* Main.storyboard */,
-				ADCBE759201524F3000EA0E8 /* Assets.xcassets */,
 				ADCBE75B201524F3000EA0E8 /* LaunchScreen.storyboard */,
+				ADCBE759201524F3000EA0E8 /* Assets.xcassets */,
 				ADCBE75E201524F3000EA0E8 /* Info.plist */,
+				AD7AE8062015260B00AC7CD1 /* Config */,
 			);
 			path = XConfigDemo;
 			sourceTree = "<group>";
@@ -150,9 +198,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD7AE816201529E300AC7CD1 /* ReleaseTest.xcconfig in Resources */,
+				AD7AE8122015287500AC7CD1 /* DebugTest.xcconfig in Resources */,
+				AD7AE8082015273400AC7CD1 /* Debug.xcconfig in Resources */,
 				ADCBE75D201524F3000EA0E8 /* LaunchScreen.storyboard in Resources */,
+				AD7AE80C2015277300AC7CD1 /* Test.xcconfig in Resources */,
+				AD7AE81820152A1D00AC7CD1 /* ReleaseProd.xcconfig in Resources */,
 				ADCBE75A201524F3000EA0E8 /* Assets.xcassets in Resources */,
 				ADCBE758201524F3000EA0E8 /* Main.storyboard in Resources */,
+				AD7AE8142015288500AC7CD1 /* DebugProd.xcconfig in Resources */,
+				AD7AE80A2015274A00AC7CD1 /* Release.xcconfig in Resources */,
+				AD7AE80E2015279000AC7CD1 /* Prod.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

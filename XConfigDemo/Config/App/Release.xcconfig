@@ -1,0 +1,9 @@
+//
+//  Release.xcconfig
+//  XConfigDemo
+//
+//  Created by Hugues Stéphano TELOLAHY on 1/21/18.
+//  Copyright © 2018 Hugues Stéphano TELOLAHY. All rights reserved.
+//
+
+FABRIC_API_KEY = release5678
