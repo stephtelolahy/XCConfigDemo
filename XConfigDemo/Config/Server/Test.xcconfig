@@ -6,4 +6,4 @@
 //  Copyright © 2018 Hugues Stéphano TELOLAHY. All rights reserved.
 //
 
-SERVER_NAME = Uat
+SERVER_URL = https:\/\/uat.demo.com/

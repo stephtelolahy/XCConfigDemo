@@ -21,7 +21,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
+	<string>$(SPLASH_SCREEN)</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -43,7 +43,7 @@
 	</array>
 	<key>USE_DEBUG_CONTROLS</key>
 	<string>$(USE_DEBUG_CONTROLS)</string>
-	<key>SERVER_NAME</key>
-	<string>$(SERVER_NAME)</string>
+	<key>SERVER_URL</key>
+	<string>$(SERVER_URL)</string>
 </dict>
 </plist>

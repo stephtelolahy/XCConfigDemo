@@ -6,4 +6,4 @@
 //  Copyright © 2018 Hugues Stéphano TELOLAHY. All rights reserved.
 //
 
-SERVER_NAME = Production
+SERVER_URL = https:\/\/production.demo.com/

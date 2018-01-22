@@ -7,3 +7,4 @@
 //
 
 USE_DEBUG_CONTROLS = 1
+SPLASH_SCREEN = LaunchScreenDev
