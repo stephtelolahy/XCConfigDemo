@@ -1,0 +1,9 @@
+//
+//  Common.xcconfig
+//  XConfigDemo
+//
+//  Created by Hugues Stéphano TELOLAHY on 1/23/18.
+//  Copyright © 2018 Hugues Stéphano TELOLAHY. All rights reserved.
+//
+
+BUNDLE_NAME = $(APP_ENV_NAME)$(SERVER_ENV_NAME)

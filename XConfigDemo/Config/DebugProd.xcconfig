@@ -8,3 +8,4 @@
 
 #include "XConfigDemo/Config/App/Debug.xcconfig"
 #include "XConfigDemo/Config/Server/Prod.xcconfig"
+#include "XConfigDemo/Config/Common.xcconfig"

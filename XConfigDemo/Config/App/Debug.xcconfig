@@ -6,5 +6,6 @@
 //  Copyright © 2018 Hugues Stéphano TELOLAHY. All rights reserved.
 //
 
+APP_ENV_NAME = Debug
 USE_DEBUG_CONTROLS = 1
 SPLASH_SCREEN = LaunchScreenDev

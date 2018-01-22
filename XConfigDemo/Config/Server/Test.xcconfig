@@ -6,4 +6,5 @@
 //  Copyright © 2018 Hugues Stéphano TELOLAHY. All rights reserved.
 //
 
+SERVER_ENV_NAME = Test
 SERVER_URL = https:\/\/uat.demo.com/
