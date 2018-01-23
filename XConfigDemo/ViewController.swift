@@ -8,11 +8,6 @@
 
 import UIKit
 
-class Constants {
-    
-    
-}
-
 class ViewController: UIViewController {
     
     @IBOutlet weak var infoLabel: UILabel!
