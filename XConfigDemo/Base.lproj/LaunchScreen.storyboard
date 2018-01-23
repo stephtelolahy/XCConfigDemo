@@ -21,11 +21,10 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DemoApp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3A-H9-DFF">
                                 <rect key="frame" x="118" y="314.5" width="139" height="39"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.2901960784" green="0.56470588239999997" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="A3A-H9-DFF" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="9In-SP-5x5"/>
                             <constraint firstItem="A3A-H9-DFF" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="FfJ-6j-Fr8"/>

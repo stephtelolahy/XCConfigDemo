@@ -8,4 +8,4 @@
 
 APP_ENV_NAME = Release
 USE_DEBUG_CONTROLS = 0
-SPLASH_SCREEN = LaunchScreen
+MAIN_SCREEN = Main

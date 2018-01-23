@@ -21,7 +21,7 @@
 		ADCBE758201524F3000EA0E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCBE756201524F3000EA0E8 /* Main.storyboard */; };
 		ADCBE75A201524F3000EA0E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADCBE759201524F3000EA0E8 /* Assets.xcassets */; };
 		ADCBE75D201524F3000EA0E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCBE75B201524F3000EA0E8 /* LaunchScreen.storyboard */; };
-		ADEDDF732016A6ED00F9703B /* LaunchScreenDev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEDDF722016A6ED00F9703B /* LaunchScreenDev.storyboard */; };
+		ADCE48442017A74E00F85F1F /* MainDev.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCE48422017A74D00F85F1F /* MainDev.storyboard */; };
 		ADEDDF752016AF8600F9703B /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = ADEDDF742016AF8600F9703B /* Common.xcconfig */; };
 		F66C2DBFA6EE780489FA9D6E /* Pods_XConfigDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382887F7FD6723D579B7E02F /* Pods_XConfigDemo.framework */; };
 /* End PBXBuildFile section */
@@ -45,7 +45,7 @@
 		ADCBE759201524F3000EA0E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADCBE75C201524F3000EA0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADCBE75E201524F3000EA0E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADEDDF722016A6ED00F9703B /* LaunchScreenDev.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreenDev.storyboard; sourceTree = "<group>"; };
+		ADCE48432017A74D00F85F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainDev.storyboard; sourceTree = "<group>"; };
 		ADEDDF742016AF8600F9703B /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
 		BF677BDCF60D96E751487C01 /* Pods-XConfigDemo.releasetest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XConfigDemo.releasetest.xcconfig"; path = "Pods/Target Support Files/Pods-XConfigDemo/Pods-XConfigDemo.releasetest.xcconfig"; sourceTree = "<group>"; };
 		C756F3C9E78957BAF20BDADB /* Pods-XConfigDemo.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XConfigDemo.debugprod.xcconfig"; path = "Pods/Target Support Files/Pods-XConfigDemo/Pods-XConfigDemo.debugprod.xcconfig"; sourceTree = "<group>"; };
@@ -142,8 +142,8 @@
 				ADCBE752201524F3000EA0E8 /* AppDelegate.swift */,
 				ADCBE754201524F3000EA0E8 /* ViewController.swift */,
 				ADCBE756201524F3000EA0E8 /* Main.storyboard */,
+				ADCE48422017A74D00F85F1F /* MainDev.storyboard */,
 				ADCBE75B201524F3000EA0E8 /* LaunchScreen.storyboard */,
-				ADEDDF722016A6ED00F9703B /* LaunchScreenDev.storyboard */,
 				ADCBE759201524F3000EA0E8 /* Assets.xcassets */,
 				ADCBE75E201524F3000EA0E8 /* Info.plist */,
 				AD7AE8062015260B00AC7CD1 /* Config */,
@@ -222,11 +222,11 @@
 				AD7AE81820152A1D00AC7CD1 /* ReleaseProd.xcconfig in Resources */,
 				ADCBE75A201524F3000EA0E8 /* Assets.xcassets in Resources */,
 				ADCBE758201524F3000EA0E8 /* Main.storyboard in Resources */,
-				ADEDDF732016A6ED00F9703B /* LaunchScreenDev.storyboard in Resources */,
 				AD7AE81920152C9500AC7CD1 /* Info.plist in Resources */,
 				AD7AE8142015288500AC7CD1 /* DebugProd.xcconfig in Resources */,
 				AD7AE80A2015274A00AC7CD1 /* Release.xcconfig in Resources */,
 				AD7AE80E2015279000AC7CD1 /* Prod.xcconfig in Resources */,
+				ADCE48442017A74E00F85F1F /* MainDev.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +315,14 @@
 				ADCBE75C201524F3000EA0E8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ADCE48422017A74D00F85F1F /* MainDev.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADCE48432017A74D00F85F1F /* Base */,
+			);
+			name = MainDev.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

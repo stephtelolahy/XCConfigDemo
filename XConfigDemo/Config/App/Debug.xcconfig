@@ -8,4 +8,4 @@
 
 APP_ENV_NAME = Debug
 USE_DEBUG_CONTROLS = 1
-SPLASH_SCREEN = LaunchScreenDev
+MAIN_SCREEN = MainDev
